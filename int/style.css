@@ -1,0 +1,241 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+/*----------------------------------------------
+CSS Settings For HTML Div ExactCenter
+------------------------------------------------*/
+#main {
+width:960px;
+margin:50px auto;
+font-family:Raleway, Arial
+}
+span {
+color:red
+}
+h2 {
+background-color:#FEFFED;
+border-radius:10px 10px 0 0;
+margin:-10px 40px;
+padding:15px
+}
+hr {
+border:0;
+border-bottom:1px solid #ccc;
+margin:10px -40px;
+margin-bottom:30px
+}
+#login {
+width:300px;
+float:left;
+border-radius:10px;
+font-family:Raleway, Arial;
+border:2px solid #ccc;
+padding:10px 40px 25px;
+margin-top:70px
+}
+input[type=text],input[type=password] {
+width:99.5%;
+padding:10px;
+margin-top:8px;
+border:1px solid #ccc;
+padding-left:5px;
+font-size:14px;
+font-family: Arial
+
+}
+input[type=text1],input[type=password1] {
+  position:absolute;
+  left: 250px;
+  width:260px;
+
+  padding-left:5px;
+  font-size:14px;
+  font-family: Arial
+
+}
+input[type=submit] {
+width:100%;
+background-color:#FFBC00;
+border:2px solid #FFCB00;
+padding:5px;
+font-size:15px;
+cursor:pointer;
+border-radius:5px;
+margin-bottom:10px
+}
+button[type=reject] {
+  width:100%;
+  background-color: #ff2e19;
+  border:2px solid #FFCB00;
+  padding:5px;
+  font-size:15px;
+  cursor:pointer;
+  border-radius:5px;
+  margin-bottom:10px
+}
+#profile {
+padding:50px;
+border:1px dashed grey;
+font-size:20px;
+background-color:#DCE6F7
+}
+#logout {
+float:right;
+padding:5px;
+border:dashed 1px gray
+}
+a {
+text-decoration:none;
+color:#6495ed
+}
+i {
+color:#6495ed
+}
+table.table1, table.table1 th, table.table1 td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin: 15px;
+}
+table.table1 tr:nth-child(even) {background-color: #f2f2f2}
+
+table.table2, table.table2 th, table.table2 td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin: 15px;
+  padding: 15px;
+}
+table.table3 {
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin: 15px;
+  padding: 15px;
+}
+table.table3 th, table.table3 td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin: 15px;
+  padding: 15px;
+}
+
+table.table5 th, table.table5 td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin: 15px;
+  padding: 15px;
+  font-size:25px;
+  font: bold;
+  left: 50%;
+  margin-right: -50%;
+}
+table.table10 tr:nth-child(odd) {
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin: 10px;
+  padding: 10px;
+  background-color: #13f2e2
+
+
+}
+table.table10 tr:nth-child(even) {
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin: 10px;
+  padding: 10px;
+  background-color: #c7aef2
+
+
+}
+table.out{
+  border: 1px solid black;
+}
+img.button_open{
+  content:url('http://code.stephenmorley.org/javascript/collapsible-lists/button-open.png');
+  cursor:pointer;
+}
+
+img.button_closed{
+  content: url('http://code.stephenmorley.org/javascript/collapsible-lists/button-closed.png');
+  cursor:pointer;
+}
+
+.expander { display: none; }
+.expander td:first-child { text-indent: 10px }
+
+span { cursor: pointer; color: #adadad; font-family: FontAwesome; }
+span:hover { color: #777777; }
+span.toggle:after { content: '\f055'; }
+
+td1 {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 15px;
+
+}
+a:hover {
+  cursor: pointer;
+  background-color: yellow;
+}
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map {
+  height: 800px;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 20px;
+  padding: 0;
+
+}
+
+
+
+#floating-panel {
+  position: absolute;
+  top: 10px;
+  left: 10%;
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #999;
+  text-align: center;
+  font-family: 'Roboto','sans-serif';
+  line-height: 30px;
+  padding-left: 10px;
+}
+#floating-panel {
+  background-color: #fff;
+  border: 1px solid #999;
+  left: 25%;
+  padding: 5px;
+  position: absolute;
+  top: 10px;
+  z-index: 5;
+}
+input[type=button] {
+
+  background-color:#FFBC00;
+  border:2px solid #FFCB00;
+  padding:5px;
+  font-size:15px;
+  cursor:pointer;
+  border-radius:5px;
+  margin-bottom:10px
+}
+
+div.back {
+
+  display: block;
+  position: relative;
+}
+
+div.back::after {
+  content: "";
+  background: url(https://demo.darbus.co.uk/int/images/background.png) no-repeat;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
